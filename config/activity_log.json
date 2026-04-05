@@ -1,0 +1,32 @@
+[
+  {
+    "level": "SUCCESS",
+    "timestamp": "05 April 2026 at 21:10:11",
+    "message": "🟢 OUR NANDI PRO started successfully"
+  },
+  {
+    "level": "SUCCESS",
+    "timestamp": "05 April 2026 at 21:10:12",
+    "message": "Dhan account connected successfully"
+  },
+  {
+    "level": "SUCCESS",
+    "timestamp": "05 April 2026 at 21:10:55",
+    "message": "Dhan credentials connected successfully"
+  },
+  {
+    "level": "SUCCESS",
+    "timestamp": "05 April 2026 at 21:11:39",
+    "message": "Monitoring service started"
+  },
+  {
+    "level": "SUCCESS",
+    "timestamp": "05 April 2026 at 21:11:39",
+    "message": "Monitoring service started"
+  },
+  {
+    "level": "SUCCESS",
+    "timestamp": "05 April 2026 at 21:13:59",
+    "message": "Protection rules updated"
+  }
+]
