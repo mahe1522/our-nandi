@@ -1703,7 +1703,9 @@ def main():
     print("\n🚀 System is running... Press Ctrl+C to stop\n")
     
     try:
-        app.run(host='0.0.0.0', port=5000, debug=False, threaded=True, use_reloader=False)
+        # DIGITALOCEAN FIX: Use PORT from environment variable (default 5000)
+        port = int(os.environ.get('PORT', 5000))
+        app.run(host='0.0.0.0', port=port, debug=False, threaded=True, use_reloader=False)
     except KeyboardInterrupt:
         print("\n\n👋 Shutting down...")
         activity_log.add("INFO", "System shutdown")
